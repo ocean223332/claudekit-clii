@@ -20,14 +20,14 @@ export type KitConfig = z.infer<typeof KitConfigSchema>;
 export const AVAILABLE_KITS: Record<KitType, KitConfig> = {
 	engineer: {
 		name: "ClaudeKit Engineer",
-		repo: "claudekit-engineer",
-		owner: "claudekit",
+		repo: "my-claudekit-",
+		owner: "ocean223332",
 		description: "Engineering toolkit for building with Claude",
 	},
 	marketing: {
 		name: "ClaudeKit Marketing",
-		repo: "claudekit-marketing",
-		owner: "claudekit",
+		repo: "my-claudekit-",
+		owner: "ocean223332",
 		description: "[Coming Soon] Marketing toolkit",
 	},
 };
